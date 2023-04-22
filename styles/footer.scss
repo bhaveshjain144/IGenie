@@ -1,0 +1,17 @@
+.footer {
+    border-top: 1px solid $border-primary;
+    display: flex;
+    justify-content: center;
+    padding: 26px;
+    font-size: 14px;
+    a {
+        color: $normal-text-primary;
+        text-decoration: none;
+        &:hover, &:focus {
+            span {
+                color: $normal-text-primary;
+                text-decoration: underline;
+            }
+        }
+    }
+}

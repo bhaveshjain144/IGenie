@@ -1,0 +1,13 @@
+.right-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.outer-container {
+    min-height: 100vh;
+    padding: 0;
+}
+.main-container {
+    flex-grow: 1;
+    background-color: $bg-content-primary;
+}

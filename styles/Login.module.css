@@ -1,0 +1,106 @@
+.main-head {
+  height: 150px;
+  background: #FFF;
+
+}
+
+.sidenav {
+  height: 100%;
+  background-color: #000;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.main {
+  padding: 20px 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .login-form {
+    margin-top: 10%;
+  }
+
+  .register-form {
+    margin-top: 10%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    margin-left: 60%;
+  }
+
+  .sidenav {
+    width: 40%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+  }
+
+  .loginForm {
+    margin-top: 80%;
+    border: 1px solid #dee2e6;
+    padding: 54px;
+    min-width: 420px;
+  }
+
+  .register-form {
+    margin-top: 20%;
+  }
+}
+
+
+.loginmaintext {
+  margin-top: 20%;
+  padding: 60px;
+  color: #fff;
+}
+
+.login-main-text h2 {
+  font-weight: 300;
+}
+
+.btn-black {
+  background-color: #000 !important;
+  color: #fff;
+}
+
+.loginFileds {
+  padding: 1rem;
+  min-width: 200px;
+}
+
+.buttonWraper {
+  text-align: center;
+
+}
+
+.loginButton {
+  width: 100%;
+  min-width: 100px;
+}
+
+.imglogo {
+  width: 80px;
+}
+
+.logoImgContainer {
+  text-align: center;
+}
+
+.animContainer {
+  width: 100%;
+}
+
+.animImg {
+  width: 100%;
+  max-width: 620px;
+}

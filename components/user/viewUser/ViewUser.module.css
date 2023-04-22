@@ -1,0 +1,80 @@
+.card {
+    width: 100%;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+    /* transition: all 0.5s; */
+}
+
+.image img {
+    transition: all 0.5s;
+    width: 56px;
+    height: auto;
+
+}
+
+.image img:hover {
+    transform: scale(1.5);
+
+}
+
+.card:hover .image img {
+    /* transform: scale(1.5) */
+}
+
+.btn {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background: white;
+}
+
+.name {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.idd {
+    font-size: 14px;
+    font-weight: 600
+}
+
+.idd1 {
+    font-size: 12px
+}
+
+.number {
+    font-size: 22px;
+    font-weight: bold
+}
+
+.follow {
+    font-size: 12px;
+    font-weight: 500;
+    color: #444444
+}
+
+.text span {
+    font-size: 13px;
+    color: #545454;
+    font-weight: 500
+}
+
+.icons i {
+    font-size: 19px
+}
+
+hr .new1 {
+    border: 1px solid
+}
+
+.join {
+    font-size: 14px;
+    color: #a0a0a0;
+    font-weight: bold
+}
+
+.date {
+    background-color: #ccc
+}

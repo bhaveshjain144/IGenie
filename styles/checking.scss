@@ -1,0 +1,303 @@
+.mainnn{
+  padding-bottom: 40px;
+}
+
+
+
+
+
+.box{
+    width: 90%;
+          margin-left: auto;
+          margin-right: auto;
+          height:20px;
+          
+          
+          
+  }
+  
+  .header{
+    margin-left: 50px;
+    height: 65px;
+    
+    
+  }
+  
+  .mcontent{
+    margin-left: 140px;
+   margin-top: 80px;
+   
+    
+  }
+  
+  .Mcontent{
+    margin-left: 140px;
+  }
+  
+  .dabba{
+    margin-left: 155px;
+    margin-right: 500px;
+    background-color: #F5F5F5;
+    word-wrap: break-word;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+    padding-left: 20px;
+    font-weight: 500;
+    
+  }
+  
+  .navingi{
+    padding-top: 15px;
+    margin-left: 170px;
+    
+  }
+  
+
+  
+  .buttony{
+    border: none;
+   color: white;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 920px;
+  background-color: #0a0244; 
+  border-radius: 8px;
+  
+  
+  }
+  
+  .rdabba{
+    height: 120px;
+    width: 260px;
+    border-radius: 5px;
+    margin-left: 1100px;
+    background-color:rgba(176, 225, 230, 0.208);
+    position:fixed;
+    margin-top: 180px;
+    padding:10px;
+    border-color: rgba(0, 0, 0, 0.11);
+    border-style: solid;
+    border-width: thin;
+    
+  }
+
+  .Odabba{
+    height: 180px;
+    width: 260px;
+    border-radius: 5px;
+    margin-left: 1100px;
+    background-color:rgba(176, 225, 230, 0.208);
+    position:fixed;
+    margin-top: 180px;
+    padding:10px;
+    border-color: rgba(0, 0, 0, 0.11);
+    border-style: solid;
+    border-width: thin;
+    
+  }
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 768px) {
+
+    .mainnn{
+      padding-bottom: 40px;
+    }
+    
+    
+    
+    
+    
+    .box{
+        width: 90%;
+              margin-left: auto;
+              margin-right: auto;
+              height:20px;
+              
+              
+              
+      }
+      
+      .header{
+        margin-left: 30px;
+        height: 65px;
+        
+        
+      }
+      
+      .mcontent{
+        margin-left: 80px;
+       margin-top: 80px;
+       
+        
+      }
+      
+      .Mcontent{
+        margin-left: 80px;
+      }
+      
+      .dabba{
+        margin-left: 80px;
+        margin-right: 270px;
+        background-color: #F5F5F5;
+        word-wrap: break-word;
+        border-radius: 5px;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 1px;
+        padding-left: 20px;
+        font-weight: 500;
+        
+      }
+      
+      .navingi{
+        padding-top: 8px;
+        margin-left: 40px;
+        
+      }
+      
+    
+      
+      .buttony{
+        border: none;
+       color: white;
+      padding: 8px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      margin-left: 450px;
+      background-color: #0a0244; 
+      border-radius: 8px;
+      
+      
+      }
+      
+      .rdabba{
+        height: 120px;
+        width: 260px;
+        border-radius: 5px;
+        margin-left: 491px;
+        background-color:rgba(176, 225, 230, 0.208);
+        position:fixed;
+        
+        margin-top: 180px;
+        padding:10px;
+        border-color: rgba(0, 0, 0, 0.11);
+        border-style: solid;
+        border-width: thin;
+      }    
+  }
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 480px) {
+    .mainnn{
+      padding-bottom: 20px;
+    }
+    
+    
+    
+    .box{
+        width: 90%;
+              margin-left: auto;
+              margin-right: auto;
+              height:20px;
+              
+              
+              
+      }
+      
+      .header{
+        margin-left: 30px;
+        height: 65px;
+        
+        
+      }
+      
+      .mcontent{
+        margin-left: 50px;
+       margin-top: 80px;
+       
+        
+      }
+      
+      .Mcontent{
+        margin-left: 50px;
+      }
+      
+      .dabba{
+        margin-left: 40px;
+        margin-right: 0px;
+        background-color: #F5F5F5;
+        word-wrap: break-word;
+        border-radius: 5px;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-bottom: 1px;
+        padding-left: 20px;
+        font-weight: 500;
+        
+      }
+      
+      .navingi{
+        padding-top: 5px;
+        margin-left: 50px;
+        
+      }
+      
+    
+  
+      .buttony{
+        border: none;
+       color: white;
+      padding: 8px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      margin-left: 370px;
+      background-color: #0a0244; 
+      border-radius: 8px;
+      
+      
+      }
+      
+      .rdabba{
+        height: 120px;
+        width: 260px;
+        border-radius: 5px;
+        margin-left: 500px;
+        background-color:rgba(176, 225, 230, 0.208);
+        position:absolute;
+        margin-top: 180px;
+        padding:10px;
+        border-color: rgba(0, 0, 0, 0.11);
+        border-style: solid;
+        border-width: thin;
+      }
+    }          
+   

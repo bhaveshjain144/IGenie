@@ -1,0 +1,648 @@
+.scorecard-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .src_outer {
+    width: 35%;
+    margin: 1rem auto;
+    padding: 2rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    border-radius: 4px;
+  }
+  
+  .alignMe {
+    list-style-type: none;
+    margin: none;
+    padding: 0rem;
+  }
+  .alignMe p {
+    display: block;
+    width: 100%;
+    position: relative;
+    padding-right: 5rem;
+    color: #515761;
+    font-weight: 600;
+  }
+  
+  .alignMe p::after {
+    content: ":";
+    position: absolute;
+    right: 1rem;
+  }
+  
+  .scr_per {
+    color: #ed6939;
+    font-size: x-large;
+  }
+  
+  .interviewer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .inp {
+    margin-left: 3rem;
+    line-height: 2rem;
+    width: 16rem;
+    border: 1px solid #dadaf9;
+    border-radius: 4px;
+  }
+  
+  input::placeholder {
+    padding: 1rem;
+  }
+  
+  .status {
+    margin-top: 1rem;
+    display: flex;
+    align-items: left;
+    flex-direction: row;
+  }
+  
+  .rad {
+    margin-left: 6rem;
+  }
+  
+  input[type="radio"] {
+    margin-left: 2rem;
+  }
+  
+  .btn-scr {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-top: 2rem;
+  }
+  
+  .scr-primary {
+    background-color: $bg-primary;
+    width: 12rem;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: 1px solid $border-primary;
+    border-radius: 6px;
+  }
+  
+  ul {
+    list-style: none;
+    display: table;
+  }
+  
+  li {
+    display: table-row;
+  }
+  
+  b {
+    display: table-cell;
+    padding-right: 1em;
+  }
+  
+  @media only screen and (max-width: 730px) {
+    .src_outer {
+      width: 80%;
+    }
+    .inp {
+      margin-left: 3rem;
+      line-height: 2rem;
+      width: 10rem;
+    }
+  
+    input::placeholder {
+      padding: 1rem;
+    }
+    .scr_details {
+      font-size: 90%;
+    }
+    .rad {
+      margin-left: 5.5rem;
+    }
+  
+    .scr_per {
+      color: #ed6939;
+      font-size: 1.2rem;
+    }
+  
+    input[type="radio"] {
+      margin-left: 1.5rem;
+    }
+  
+    .btn-scr {
+      padding-top: 1rem;
+  
+    }
+  
+    .scr-primary {
+      width: 9rem;
+      font-size: 80%;
+      padding-top: 7px;
+      padding-bottom: 7px;
+    }
+  }
+  @media (min-width:730px) and (max-width: 815px) {
+    .src_outer {
+      width: 62%;
+    }
+    .inp {
+      margin-left: 3rem;
+      line-height: 2rem;
+      width: 13rem;
+    }
+    input::placeholder {
+      padding: 1rem;
+    }
+    .scr_details {
+      font-size: 90%;
+    }
+  
+    .rad {
+      margin-left: 5.5rem;
+    }
+  
+    .scr_per {
+      color: #ed6939;
+      font-size: 1.2rem;
+    }
+  
+    input[type="radio"] {
+      margin-left: 2rem;
+    }
+  
+    .btn-scr {
+      padding-top: 1rem;
+  
+    }
+  
+    .scr-primary {
+      width: 9rem;
+      font-size: 80%;
+      padding-top: 7px;
+      padding-bottom: 7px;
+    }
+  
+  }
+  
+  @media (min-width:815px) and (max-width: 860px) {
+    .src_outer {
+      width: 55%;
+    }
+    .scr_per {
+      color: #ed6939;
+      font-size: 1.2rem;
+    }
+    .inp {
+      margin-left: 3rem;
+      line-height: 2rem;
+      width: 13.5rem;
+    }
+  
+    input::placeholder {
+      padding: 1rem;
+    }
+    .scr_details {
+      font-size: 90%;
+    }
+  
+    .rad {
+      margin-left: 6.5rem;
+    }
+    input[type="radio"] {
+      margin-left: 1rem;
+    }
+  
+    .btn-scr {
+      padding-top: 1rem;
+  
+    }
+  
+    .scr-primary {
+      width: 9rem;
+      font-size: 80%;
+  
+    }
+  
+  }
+  
+  @media (min-width:860px) and (max-width: 900px) {
+    .src_outer {
+      width: 52%;
+    }
+    .scr_per {
+      color: #ed6939;
+      font-size: 1.2rem;
+    }
+    .inp {
+      margin-left: 3rem;
+      line-height: 2rem;
+      width: 13.5rem;
+    }
+    input::placeholder {
+      padding: 1rem;
+    }
+    .scr_details {
+      font-size: 90%;
+    }
+  
+    .rad {
+      margin-left: 6.5rem;
+    }
+  
+  
+    input[type="radio"] {
+      margin-left: 1rem;
+    }
+  
+    .btn-scr {
+      padding-top: 1rem;
+  
+    }
+  
+    .scr-primary {
+      width: 9rem;
+      font-size: 80%;
+  
+    }
+  
+  }
+  
+  @media (min-width:900px) and (max-width: 950px) {
+    .src_outer {
+      width: 55%;
+    }
+  
+  
+    .scr_per {
+      color: #ed6939;
+      font-size: 1.2rem;
+    }
+  
+  
+    .inp {
+      margin-left: 3rem;
+      line-height: 2rem;
+      width: 13.5rem;
+    }
+  
+    input::placeholder {
+      padding: 1rem;
+    }
+  
+  
+    .scr_details {
+      font-size: 100%;
+    }
+  
+    .rad {
+      margin-left: 6.5rem;
+    }
+  
+  
+    input[type="radio"] {
+      margin-left: 1rem;
+    }
+  
+    .btn-scr {
+      padding-top: 1rem;
+  
+    }
+  
+    .scr-primary {
+      width: 9rem;
+      font-size: 80%;
+  
+    }
+  
+  }
+  
+  @media (min-width:950px) and (max-width: 1020px) {
+    .src_outer {
+      width: 50%;
+    }
+  
+  
+    .scr_per {
+      color: #ed6939;
+      font-size: 1.2rem;
+    }
+  
+  
+    .inp {
+      margin-left: 3rem;
+      line-height: 2rem;
+      width: 13.5rem;
+    }
+  
+    input::placeholder {
+      padding: 1rem;
+    }
+  
+  
+    .scr_details {
+      font-size: 100%;
+    }
+  
+    .rad {
+      margin-left: 6.5rem;
+    }
+  
+  
+    input[type="radio"] {
+      margin-left: 1rem;
+    }
+  
+    .btn-scr {
+      padding-top: 1rem;
+  
+    }
+  
+    .scr-primary {
+      width: 9rem;
+      font-size: 80%;
+  
+    }
+  
+  }
+  
+  
+  @media (min-width:1020px) and (max-width: 1150px) {
+    .src_outer {
+      width: 45%;
+    }
+  
+  
+    .scr_per {
+      color: #ed6939;
+      font-size: 1.2rem;
+    }
+  
+  
+    .inp {
+      margin-left: 3rem;
+      line-height: 2rem;
+      width: 13.5rem;
+    }
+  
+    input::placeholder {
+      padding: 1rem;
+    }
+  
+  
+    .scr_details {
+      font-size: 100%;
+    }
+  
+    .rad {
+      margin-left: 6.5rem;
+    }
+  
+  
+    input[type="radio"] {
+      margin-left: 1rem;
+    }
+  
+    .btn-scr {
+      padding-top: 1rem;
+  
+    }
+  
+    .scr-primary {
+      width: 9rem;
+      font-size: 80%;
+  
+    }
+  
+  }
+  
+  @media (min-width:1150px) and (max-width: 1200px) {
+    .src_outer {
+      width: 45%;
+    }
+  
+  
+    .scr_per {
+      color: #ed6939;
+      font-size: 1.2rem;
+    }
+  
+  
+    .inp {
+      margin-left: 3rem;
+      line-height: 2rem;
+      width: 13.5rem;
+    }
+  
+    input::placeholder {
+      padding: 1rem;
+    }
+  
+  
+    .scr_details {
+      font-size: 100%;
+    }
+  
+    .rad {
+      margin-left: 6.5rem;
+    }
+  
+  
+    input[type="radio"] {
+      margin-left: 1rem;
+    }
+  
+    .btn-scr {
+      padding-top: 1rem;
+  
+    }
+  
+    .scr-primary {
+      width: 9rem;
+      font-size: 80%;
+  
+    }
+  
+  }
+  
+  @media (min-width:1200px) and (max-width: 1250px) {
+    .src_outer {
+      width: 45%;
+    }
+  
+  
+    .scr_per {
+      color: #ed6939;
+      font-size: 1.2rem;
+    }
+  
+  
+    .inp {
+      margin-left: 3rem;
+      line-height: 2rem;
+      width: 13.5rem;
+    }
+  
+    input::placeholder {
+      padding: 1rem;
+    }
+  
+  
+    .scr_details {
+      font-size: 100%;
+    }
+  
+    .rad {
+      margin-left: 6.5rem;
+    }
+  
+  
+    input[type="radio"] {
+      margin-left: 1rem;
+    }
+  
+    .btn-scr {
+      padding-top: 1rem;
+  
+    }
+  
+    .scr-primary {
+      width: 9rem;
+      font-size: 80%;
+  
+    }
+  
+  }
+  
+  @media (min-width:1250px) and (max-width: 1280px) {
+    .src_outer {
+      width: 40%;
+    }
+  
+  
+    .scr_per {
+      color: #ed6939;
+      font-size: 1.2rem;
+    }
+  
+  
+    .inp {
+      margin-left: 3rem;
+      line-height: 2rem;
+      width: 13.5rem;
+    }
+  
+    input::placeholder {
+      padding: 1rem;
+    }
+  
+  
+    .scr_details {
+      font-size: 100%;
+    }
+  
+    .rad {
+      margin-left: 6.5rem;
+    }
+  
+  
+    input[type="radio"] {
+      margin-left: 1rem;
+    }
+  
+    .btn-scr {
+      padding-top: 1rem;
+  
+    }
+  
+    .scr-primary {
+      width: 9rem;
+      font-size: 80%;
+  
+    }
+  
+  }
+  
+  @media (min-width:1280px) and (max-width: 1350px) {
+    .src_outer {
+      width: 40%;
+    }
+  
+    .inp {
+      margin-left: 3rem;
+      line-height: 2rem;
+      width: 13.5rem;
+    }
+  
+    input::placeholder {
+      padding: 1rem;
+    }
+  
+  
+    .scr_details {
+      font-size: 100%;
+    }
+  
+    .rad {
+      margin-left: 6.5rem;
+    }
+  
+  
+    input[type="radio"] {
+      margin-left: 1rem;
+    }
+  
+    .btn-scr {
+      padding-top: 1rem;
+  
+    }
+  
+    .scr-primary {
+      width: 9rem;
+      font-size: 80%;
+  
+    }
+  
+  }
+  
+  @media (min-width:1350.1px) and (max-width: 1450px) {
+    .src_outer {
+      width: 40%;
+    }
+    .inp {
+      margin-left: 3rem;
+      line-height: 2rem;
+      width: 13.5rem;
+    }
+  
+    input::placeholder {
+      padding: 1rem;
+    }
+  
+  
+    .scr_details {
+      font-size: 100%;
+    }
+  
+    .rad {
+      margin-left: 6.5rem;
+    }
+  
+  
+    input[type="radio"] {
+      margin-left: 1rem;
+    }
+  
+    .btn-scr {
+      padding-top: 1rem;
+  
+    }
+  
+    .scr-primary {
+      width: 9rem;
+      font-size: 80%;
+  
+    }
+  
+  }

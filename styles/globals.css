@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+.side-navbar {
+  width: 180px;
+  height: 100%;
+  position: fixed;
+  margin-left: -300px;
+  transition: 0.5s;
+  border-right: 1px solid #dee2e6;
+  background: white;
+}
+
+.main {
+  min-height: 80vh;
+  padding: 1rem;
+}
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+  background-color: #ffffff26;
+}
+
+.my-container {
+  transition: 0.4s;
+}
+
+.active-nav {
+  margin-left: 0;
+}
+
+/* for main section */
+.active-cont {
+  margin-left: 180px;
+}
+
+#menu-btn {
+  color: #000;
+  margin-left: -53px;
+  border: 1px solid #dee2e6 !important;
+  background: white;
+  position: fixed;
+}
+
+.my-container input {
+  border-radius: 2rem;
+  padding: 2px 20px;
+}
+
+.padding-left-0 {
+  padding-left: 0;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  font-weight: bold !important;
+  color: black;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  color: #000;
+  font-weight: bold;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: #fff;
+}
+
+a#menu-btn:hover {
+  font-size: 20px;
+}
+
+.logo-container {
+  width: auto;
+  height: auto;
+  left: 0px;
+  position: absolute;
+  padding: 4px;
+  margin: 2px;
+  margin-left: 14px;
+}
+
+.img-logo {
+  width: 40px;
+}
+
+.log-out-btn {
+  font-size: 1.5rem;
+  cursor: pointer;
+  width: 200px;
+}
+
+span.log-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.page-title-container {
+  width: 61%;
+  display: inline;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.underline-view-link {
+  text-decoration: underline;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.aliginBtnRight {
+  text-align: right;
+}
+
+.text-center.model-heading {
+  padding: 1rem;
+  border-bottom: 1px solid #ced4da;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.close-btn {
+  position: absolute;
+  right: 20px;
+  font-size: 2rem;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.btn-close-full-scren {
+  box-sizing: content-box;
+  width: 1.5rem;
+  height: 1.55rem;
+  padding: 0em 0em;
+}
+
+i.bx.bxs-star {
+  font-size: 1.5rem;
+}
+
+i.bx.bxs-star.str-hi {
+  color: #dba203
+}
+
+.modal-fullscreen {
+  width: 100vw;
+  max-width: none;
+  height: fit-content;
+  margin: 0;
+}

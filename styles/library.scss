@@ -1,0 +1,416 @@
+.l-header {
+    // background-color: cyan;
+    height: 60px;
+    padding: 5px;
+    border: 1px solid grey;
+}
+
+.img {
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+
+.vl {
+    border-left: 2px solid gray;
+    position: absolute;
+    left: 40%;
+    top: 0;
+    margin-top: 60px;
+    height: 200%;
+    
+}
+
+.body {
+    margin-left: 80px;
+    margin-top: 30px;
+    width: 40%;
+}
+
+.pagetitle {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.selecttech {
+    margin-top: 20px;
+    font-size: 15px;
+    // width: 100%;
+}
+
+.dropdown{
+    margin-top: 5px;
+    border: 2px solid $border-primary;
+    border-radius: 5px;
+    width: 70% ;
+}
+
+.dropdown_toggle{
+    color: grey;
+    border:0px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    &:focus {
+        color: grey;
+        border-radius: 10px 10px 0px 0px;
+    }
+}
+ 
+
+.options {
+    width: 100%;
+    border-radius: 0%;
+    color: black;
+}
+
+.btn-new {
+    width: 100%;
+    height: 2.5rem;
+    background-color: $bg-primary;
+    color: white;
+
+    // text-decoration: solid;
+}
+
+.btn-new:hover {
+    background-color: $bg-primary;
+    color: white;
+    
+}
+
+.technologyname {
+    margin-top: 20px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+.question {
+    margin-top: 20px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+.answer {
+    margin-top: 20px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+.inpt{
+    // margin-left: 6rem;
+    // line-height: 2rem;
+    margin-top: 10px;
+    width: 70%;
+    height: 2.5rem;
+    border: 2px solid $border-primary;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.inpq{
+    // margin-left: 6rem;
+    // line-height: 2rem;
+    margin-top: 10px;
+    width: 70%;
+    height: 6rem;
+    border: 2px solid $border-primary;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.inpa{
+    // margin-left: 6rem;
+    // line-height: 2rem;
+    margin-top: 10px;
+    width: 70%;
+    height: 8rem;
+    border: 2px solid $border-primary;
+    border-radius: 4px;
+    background-color: white;
+}
+
+input::placeholder{
+    // margin-top: -30px;
+    text-align: left;
+    color: grey;
+
+}
+
+.weightage {
+    margin-top: 20px;
+    width: 80%;
+}
+
+.radioweightage input[type="radio"]
+{
+    margin-left: 2rem;
+    
+}
+
+.button1 {
+    margin-left: 60%;
+}
+.buttonsubmit1 {
+    border-color: grey;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+    color: grey;
+    width: 90px;
+    padding: 5px;
+}
+
+.buttonsubmit {
+    border-color: white;
+    border-radius: 10px;
+    background-color: $bg-primary;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    width: 90px;
+    padding: 5px;
+}
+
+.Display {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: $bg-content-primary;
+    margin-top: -30px;
+    margin-left: 35%;
+    position: absolute;
+    font-size: 20px;
+}
+
+.sideheading {
+    margin-left: 3rem;
+    margin-top: 2.5rem;
+    font-weight: bolder;
+}
+
+.sidequestion {
+    margin-top: 30px;
+    margin-left: 3rem;
+    margin-right: 5rem;
+    font-size: 20px;
+    font-family: 'Helvetica 45 Light', sans-serif;
+    // margin-top: 2.5rem;
+}
+
+.answercomponent {
+    display: flex;
+    flex-direction: row;
+    margin-right: 5rem;
+}
+
+.sideanswer {
+    margin-left: 4.5rem;
+    width: 44rem;
+    margin-top: -10px;
+    background-color: $border-primary;
+    margin-right: 1rem;
+    border-radius: 4px;
+    padding: 15px;
+    
+}
+
+.sideweightage {
+    color: white;
+    background-color: $bg-primary;
+    margin-left: 10px;
+    margin-top: -10px;
+    width: 40px;
+    height: 2rem;
+    text-align: center;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .body {
+        width: 40%;
+    }
+    .vl {
+        border-left: 2px solid gray;
+        position: fixed;
+        left: 70%;
+        top: 0;
+        margin-top: 60px;
+        height: 20px;
+        
+    }
+    .pagetitle {
+        font-weight: bolder;
+        font-size: 15px;
+    }
+    .inp {  
+        line-height: 2rem;
+        width: 70%;
+    }
+    input::placeholder {
+        padding: 1rem;
+    }
+    .scr_details {
+        font-size: 90%;
+    }
+    .rad {
+        margin-left: 5.5rem;
+    }
+    .scr_per {
+        color: #ed6939;
+        font-size: 1.2rem;
+    }
+    .weightage {
+        width: 60%;
+    }
+    input[type="radio"] {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .btn-scr {
+        padding-top: 1rem;
+    }
+    .scr-primary {  
+        width: 9rem;
+        font-size: 80%;  
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+  }
+  
+@media only screen and (max-width: 767px) {
+
+    .body {
+        width: 40%;
+    }
+    .vl {
+        border-left: 2px solid gray;
+        position: absolute;
+        left: 55%;
+        top: 0;
+        margin-top: 60px;
+        height: 100%;
+        
+    }
+    .dropdown {
+        width: 50%;
+    }
+    .pagetitle {
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    .inp {  
+        line-height: 2rem;
+        width: 70%;
+    }
+    input::placeholder {
+        padding: 1rem;
+    }
+    .scr_details {
+        font-size: 90%;
+    }
+    .rad {
+        margin-left: 5.5rem;
+    }
+    .scr_per {
+        color: #ed6939;
+        font-size: 1.2rem;
+    }
+    input[type="radio"] {
+        margin-left: 1.5rem;
+    }
+    .btn-scr {
+        padding-top: 1rem;
+    }
+    .scr-primary {  
+        width: 9rem;
+        font-size: 80%;  
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+    .radioweightage input[type="radio"]
+    {
+        margin-left: .5rem;
+    }
+    .button1 {
+        margin-left: 30%;
+    }
+  }
+
+
+@media only screen and (max-width: 1024px) {
+
+    .body {
+        width: 60%;
+    }
+    .vl {
+        border-left: 2px solid gray;
+        position: absolute;
+        left: 45%;
+        top: 0;
+        margin-top: 60px;
+        height: 100%;
+        
+    }
+    .pagetitle {
+        font-weight: bolder;
+        font-size: 25px;
+    }
+    .dropdown {
+        width: 60%;
+    }
+    .inpt {  
+        line-height: 2rem;
+        width: 60%;
+    }
+    .inpq {  
+        line-height: 2rem;
+        width: 60%;
+    }
+    .inpa {  
+        line-height: 2rem;
+        width: 60%;
+    }
+    input::placeholder {
+        padding: 1rem;
+    }
+    .scr_details {
+        font-size: 90%;
+    }
+    .rad {
+        margin-left: 5.5rem;
+    }
+    .scr_per {
+        color: #ed6939;
+        font-size: 1.2rem;
+    }
+    input[type="radio"] {
+        margin-left: 1.5rem;
+    }
+    .btn-scr {
+        padding-top: 1rem;
+    }
+    .scr-primary {  
+        width: 9rem;
+        font-size: 80%;  
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+    .radioweightage input[type="radio"]
+    {
+        margin-left: 1.5rem;
+    }
+    .button1 {
+        margin-left: 40%;
+    }
+  }
+
+  

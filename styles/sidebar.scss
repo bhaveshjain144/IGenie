@@ -1,0 +1,160 @@
+.nav-slider {
+    width: 100%;
+    transition: width .1s ease-in-out;
+    border-right: 1px solid $border-primary;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    position: absolute;
+
+    @media only screen and (min-width: 992px) {
+        position: static;
+        width: 80px;
+    }
+
+    &.nav-show {
+        width: 100%;
+
+        @media only screen and (min-width: 992px) {
+            width: 280px;
+        }
+    }
+
+    &:not(.nav-show) {
+        .logo-sm {
+            display: block;
+        }
+
+        .freshbee-logo {
+            display: none !important;
+        }
+
+        .push-sidebar-menu {
+            right: -50px;
+        }
+
+        .sidebar-navlist {
+            @media only screen and (min-width: 992px) {
+                .sidebar-navlist-title {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .navbar-toggler {
+        border: none;
+        position: absolute;
+        top: 20px;
+        right: 100px;
+
+        @media only screen and (min-width: 576px) {
+            right: 122px;
+        }
+
+        >span {
+            display: none;
+        }
+
+        &.bx-menu {
+            &:before {
+                font-size: 28px;
+            }
+        }
+    }
+
+    .sidebar-collapse {
+        position: absolute;
+        width: 100%;
+        top: 78px;
+        box-shadow: 0px 3px 6px #000;
+        z-index: 1;
+
+        @media only screen and (min-width: 992px) {
+            position: static;
+            box-shadow: none;
+        }
+    }
+}
+
+.sidebar-header {
+    padding: 15px 20px 46px 30px;
+    position: relative;
+}
+
+.freshbee-logo {
+    font-size: 20px;
+    padding: 0;
+
+    @media only screen and (min-width: 992px) {
+        font-size: 20px;
+    }
+
+    >* {
+        display: inline-block;
+    }
+
+    img {
+        margin-right: 10px;
+        width: 28px;
+
+        @media only screen and (min-width: 992px) {
+            width: 36px;
+        }
+    }
+}
+
+.logo-sm {
+    display: none;
+
+    img {
+        margin-right: 10px;
+        width: 36px;
+    }
+}
+
+.push-sidebar-menu {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    top: 26px;
+}
+
+.sidebar-navlist {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    overflow: auto;
+    background: $white;
+
+    li {
+        cursor: pointer;
+
+        div {
+            display: flex;
+            align-items: center;
+            padding: 12px 20px 12px 30px;
+
+            @media only screen and (min-width: 992px) {
+                padding: 20px 20px 20px 30px;
+            }
+        }
+
+        i {
+            font-size: 24px;
+        }
+
+        span {
+            display: inline-block;
+            margin-left: 20px;
+        }
+
+        &.active {
+            background-color: $bg-primary;
+            color: $white;
+        }
+    }
+}

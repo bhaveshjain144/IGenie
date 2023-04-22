@@ -1,0 +1,40 @@
+.page-subheader .search-trainee {
+    flex-grow: 1;
+  }
+  @media (min-width: 768px) {
+    .page-subheader .search-trainee {
+      flex-grow: unset;
+    }
+  }
+  .page-subheader .search-block {
+    width: 100%;
+  }
+  .page-subheader .add-trainee-btn {
+    width: 100%;
+  }
+  @media (min-width: 768px) {
+    .page-subheader .add-trainee-btn {
+      width: auto;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) {
+    .trainee-table thead th:nth-child(1) {
+      width: 18%;
+    }
+    .trainee-table thead th:nth-child(2) {
+      width: 23%;
+    }
+    .trainee-table thead th:nth-child(3) {
+      width: 16%;
+    }
+    .trainee-table thead th:nth-child(4) {
+      width: 16%;
+    }
+    .trainee-table thead th:nth-child(5) {
+      width: 13%;
+    }
+    .trainee-table thead th:nth-child(6) {
+      width: 15%;
+    }
+  }/*# sourceMappingURL=trainees.css.map */
