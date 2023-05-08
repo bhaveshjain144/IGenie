@@ -1,6 +1,6 @@
 import { Form, Button } from "react-bootstrap";
-import Img from "next/image"
-import styles from "./ViewUser.module.css"
+import Img from "next/image";
+import styles from "./viewUser.module.css";
 const ViewUserComponent = (props: any) => {
     return (
         <div className="d-flex justify-content-center">

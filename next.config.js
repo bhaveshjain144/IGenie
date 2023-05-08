@@ -29,5 +29,4 @@ module.exports = {
     // Will be available on both server and client
     staticFolder: '/static',
   },
-  webpack5: false
 };

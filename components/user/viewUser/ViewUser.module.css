@@ -18,9 +18,9 @@
 
 }
 
-.card:hover .image img {
-    /* transform: scale(1.5) */
-}
+/* .card:hover .image img {
+    transform: scale(1.5)
+} */
 
 .btn {
     height: 140px;
